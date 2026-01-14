@@ -5,7 +5,7 @@ This repository presents a **three-phase** case study in MRI-based brain tumor d
 
 1. **Binary Classification (Tumor vs. No Tumor)** using the **Br35H** dataset — compares classical ML models, a simple neural network, and a small CNN.
 2. **Multiclass Classification (4 classes)** on a four-class MRI dataset *(glioma, meningioma, pituitary tumor, no tumor)* — includes augmentation, baseline CNN, transfer learning, and custom CNN variants with attention-style improvements.
-3. **Hybrid Phase (Feature/Model Hybridization)** — explores hybrid approaches that combine strengths of architectures/features (e.g., attention-enhanced CNN + transfer-learning embeddings) to improve multiclass performance and robustness.
+3. **Hybrid Phase (Feature/Model Hybridisation)** — explores hybrid approaches that combine strengths of architectures/features (e.g., attention-enhanced CNN + transfer-learning embeddings) to improve multiclass performance and robustness.
 
 > Notebooks are designed to be run sequentially, but each phase can be executed independently.
 
@@ -38,7 +38,7 @@ Khaliki & Başarslan, *Scientific Reports* (01 Feb 2024) — DOI: 10.1038/s41598
 ### Phase 1 — Binary Classification Pipeline
 **Goal:** Detect tumor presence (tumor vs. no tumor)
 
-- **Preprocessing:** grayscale normalization, flattening, feature scaling
+- **Preprocessing:** grayscale normalisation, flattening, feature scaling
 - **Models:**
   - Logistic Regression (with CV)
   - Linear SVM
@@ -65,7 +65,7 @@ Khaliki & Başarslan, *Scientific Reports* (01 Feb 2024) — DOI: 10.1038/s41598
 ---
 
 ### Phase 3 — Hybrid Phase (Hybrid / Combined Approaches)
-**Goal:** Improve multiclass performance using hybridization strategies.
+**Goal:** Improve multiclass performance using hybridisation strategies.
 
 Examples explored in `3_hybrid.ipynb` may include:
 - **SE/attention-style enhancements** (channel-wise emphasis)
@@ -82,7 +82,6 @@ Examples explored in `3_hybrid.ipynb` may include:
 - scikit-learn, OpenCV
 - NumPy, pandas, matplotlib
 
-*(Tip: if you can, add a `requirements.txt` or `environment.yml` so others can reproduce easily.)*
 
 ---
 
