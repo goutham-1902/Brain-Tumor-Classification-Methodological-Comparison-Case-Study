@@ -1,4 +1,4 @@
-Brain Tumor Classification Case Study
+Brain Tumor Classification Methodological Comparison Case Study
 =====================================
 
 Overview
