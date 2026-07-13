@@ -1,0 +1,13 @@
+task,source,model,evaluation_set,n_evaluation,accuracy_percent,macro_f1_percent,test_loss,evidence_status,notes
+binary,1_BinaryClassification.ipynb,Logistic regression,"20% split of 2,970-image modeling pool",594,97.0,97.0,,saved notebook output,Rounded as printed in classification_report.
+binary,1_BinaryClassification.ipynb,Random forest,"20% split of 2,970-image modeling pool",594,95.0,95.0,,saved notebook output,Rounded as printed in classification_report.
+binary,1_BinaryClassification.ipynb,SVC (RBF default),"20% split of 2,970-image modeling pool",594,94.0,94.0,,saved notebook output,Rounded as printed in classification_report.
+binary,1_BinaryClassification.ipynb,k-nearest neighbours,"20% split of 2,970-image modeling pool",594,90.0,90.0,,saved notebook output,Rounded as printed in classification_report.
+binary,1_BinaryClassification.ipynb,Dense neural network,"20% split of 2,970-image modeling pool",594,89.0,88.0,,saved notebook output,Rounded as printed in classification_report.
+binary,1_BinaryClassification.ipynb,Gaussian naive Bayes,"20% split of 2,970-image modeling pool",594,67.0,67.0,,saved notebook output,Rounded as printed in classification_report.
+binary,1_BinaryClassification.ipynb,K-means (k=2),"full 2,970-image modeling pool",2970,34.0,33.0,,not comparable,"In-sample, unsupervised cluster IDs were not aligned to labels."
+multiclass,2_MultiClass.ipynb,Custom CNN,fixed test directory,1311,97.178,97.0,0.14281,saved notebook output,Per-class names are misordered in the saved report; aggregate metrics remain usable.
+multiclass,2_MultiClass.ipynb,VGG16 fine-tuning attempt,none,,,,,not evaluated,Saved training output stops during epoch 14; evaluation cells have no output.
+multiclass,3_hybrid.ipynb,Fine-tuned VGG16 hybrid,fixed test directory,1311,97.712,98.0,0.11887,saved notebook output,Per-class names are misordered in saved reports where present; aggregate metrics remain usable.
+multiclass,3_hybrid.ipynb,Frozen VGG16 hybrid,fixed test directory,1311,96.873,,0.11809,saved notebook output,Per-class names are misordered in saved reports where present; aggregate metrics remain usable.
+multiclass,3_hybrid.ipynb,SE-enhanced CNN,fixed test directory,1311,81.236,78.0,0.93463,saved notebook output,Per-class names are misordered in saved reports where present; aggregate metrics remain usable.

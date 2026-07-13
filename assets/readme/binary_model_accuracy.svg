@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+<title id="title">Binary supervised model accuracy</title>
+<desc id="desc">Horizontal bars compare six supervised models on the 594-image test split.</desc>
+<rect width="1400" height="720" fill="#FFFFFF"/>
+<text x="70" y="70" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#172033">Binary classification — supervised model accuracy</text>
+<text x="70" y="104" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#5B6475">Saved notebook test output; n = 594 images; values are rounded as printed in the classification reports</text>
+<line x1="350.0" y1="152" x2="350.0" y2="582" stroke="#D8DEE9" stroke-width="1"/>
+<text x="350.0" y="142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5B6475">0</text>
+<line x1="520.0" y1="152" x2="520.0" y2="582" stroke="#D8DEE9" stroke-width="1"/>
+<text x="520.0" y="142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5B6475">20</text>
+<line x1="690.0" y1="152" x2="690.0" y2="582" stroke="#D8DEE9" stroke-width="1"/>
+<text x="690.0" y="142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5B6475">40</text>
+<line x1="860.0" y1="152" x2="860.0" y2="582" stroke="#D8DEE9" stroke-width="1"/>
+<text x="860.0" y="142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5B6475">60</text>
+<line x1="1030.0" y1="152" x2="1030.0" y2="582" stroke="#D8DEE9" stroke-width="1"/>
+<text x="1030.0" y="142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5B6475">80</text>
+<line x1="1200.0" y1="152" x2="1200.0" y2="582" stroke="#D8DEE9" stroke-width="1"/>
+<text x="1200.0" y="142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#5B6475">100</text>
+<text x="334" y="209.92000000000002" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#172033">Logistic regression</text>
+<rect x="350" y="180" width="824.5" height="44" rx="4" fill="#2563EB"/>
+<text x="1186.5" y="209.92000000000002" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#172033">97.0%</text>
+<text x="334" y="279.92" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#172033">Random forest</text>
+<rect x="350" y="250" width="807.5" height="44" rx="4" fill="#2563EB"/>
+<text x="1169.5" y="279.92" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#172033">95.0%</text>
+<text x="334" y="349.92" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#172033">SVC (RBF default)</text>
+<rect x="350" y="320" width="799.0" height="44" rx="4" fill="#2563EB"/>
+<text x="1161.0" y="349.92" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#172033">94.0%</text>
+<text x="334" y="419.92" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#172033">k-nearest neighbours</text>
+<rect x="350" y="390" width="765.0" height="44" rx="4" fill="#2563EB"/>
+<text x="1127.0" y="419.92" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#172033">90.0%</text>
+<text x="334" y="489.92" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#172033">Dense neural network</text>
+<rect x="350" y="460" width="756.5" height="44" rx="4" fill="#2563EB"/>
+<text x="1118.5" y="489.92" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#172033">89.0%</text>
+<text x="334" y="559.92" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#172033">Gaussian naive Bayes</text>
+<rect x="350" y="530" width="569.5" height="44" rx="4" fill="#2563EB"/>
+<text x="931.5" y="559.92" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#172033">67.0%</text>
+<line x1="70" y1="620" x2="1330" y2="620" stroke="#D8DEE9" stroke-width="1"/>
+<text x="70" y="653" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5B6475">K-means is excluded: it is unsupervised, evaluated on all 2,970 modeling images, and its cluster IDs were not label-aligned.</text>
+<text x="70" y="682" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#5B6475">Source: 1_BinaryClassification.ipynb saved outputs (commit 427b78c).</text>
+</svg>
